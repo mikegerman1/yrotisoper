@@ -3,11 +3,11 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
-#ifdef WIN_COMP
+#ifdef _WIN32
 #define ClearScreen() system("cls")
 #endif
 
-#ifdef LIN_COMP 
+#ifdef __linux__ 
 #define ClearScreen() system("clear")
 #endif
 
