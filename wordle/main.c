@@ -7,7 +7,7 @@
 #define ClearScreen() system("cls")
 #endif
 
-#ifdef __linux__ 
+#ifdef __linux__
 #define ClearScreen() system("clear")
 #endif
 
